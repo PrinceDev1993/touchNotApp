@@ -1,0 +1,334 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* FIRST SECTION */
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+}
+.jumbo {
+    background: #F7F8FC;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+} 
+.row {
+    width: 100%;
+}
+
+.headerImg {
+    margin-top: 40px;
+}
+
+.commingSoon {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 10px;
+    color: #545D7A;
+}
+.LandPara1 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #10182F;
+    margin-top: 50px;
+}
+
+.btnDv {
+    margin-left: -20px;
+}
+.label {
+    font-size: 20px;
+    line-height: 33px;
+    color: #10182F;
+    margin-top: 30px;
+}
+
+
+
+.countDown {
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.countDown div {
+    margin-left: 20px;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: #10182F;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.countDown span {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 0.5;
+    line-height: 0px;
+}
+
+.btn {
+    background: #10182F;
+    border-radius: 5px;
+}
+
+
+
+/* SECOND SECTION */
+.landingImg {
+    background: url(img/bgImage.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    
+}
+
+.landingOverlay {
+    background: rgba(16, 24, 47, 0.8);
+    height: 800px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sectionHeader {
+    font-size: 50px;
+    line-height: 33px;
+    letter-spacing: 2px;
+}
+
+.overlayRow2Para {
+    margin-top: 100px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 1px;
+}
+
+.overlayRow2Img {
+    margin-top: 50px;
+}
+
+/* THIRD SECTION */
+
+.AmazingPara {
+    margin-top: 80px;
+}
+
+.groupImgDiv {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.GroupBImg {
+    margin-top: 150px;
+}
+
+/* FOURTH SECTION  */
+
+.glideDiv {
+    margin-top: 100px;
+}
+.Left {
+    margin-left: -100px;
+    border-radius: 50%;
+    border: 4px solid #3F79FD;
+}
+.right {
+    border-radius: 50%;
+    border: 4px solid #3F79FD;
+    margin-right: -100px;
+}
+
+
+/* FIFTH SECTION */
+.blueDiv {
+    height: 545.5px;
+    background: linear-gradient(290.56deg, #306BF3 5.39%, #437CFF 97.32%);
+}
+
+.blueDivHead {
+    font-size: 50px;
+    line-height: 33px;
+    letter-spacing: 2px;
+    margin-top: 200px;
+}
+.blueDivPara {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #F1F1F1;
+    margin-top: 50px;
+}
+
+.bluebtn  {
+    margin-top: 30px;
+}
+
+/* FOOTER */
+footer {
+    background: #10182F;
+    height: 90px;
+    line-height: 70px;
+}
+
+/* RESPONSIVENESS */
+
+@media(max-width: 900px) {
+    .landingOverlay {
+        padding-left: 50px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sectionHeader {
+        font-size: 40px;
+    }
+    .blueDivHead {
+        font-size: 40px;
+        margin-top: 150px;
+    }
+};
+
+@media(max-width: 768px) {
+    .countDown div {
+        font-size: 30px;
+    }
+    
+    .countDown span {
+        font-size: 12px;
+    }
+    
+}
+
+@media(max-width: 580px) {
+    .countDown div {
+        font-size: 30px;
+    }
+    
+    .countDown span {
+        font-size: 12px;
+    }
+    .sectionHeader {
+        font-size: 30px;
+    }
+    .overlayRow2Para {
+        margin-top: 400px;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 29px;
+        letter-spacing: 1px;
+        text-align: center !important;
+    }
+    .specImg {
+        margin-top: -850px;
+    }
+    .hidePara {
+        display: none;
+    }
+    .blueDivHead {
+        font-size: 30px;
+        margin-top: 150px;
+    }
+    .Left {
+        margin-left: -70px;
+        border: 2px solid #3F79FD;
+    }
+    .right {
+        border: 2px solid #3F79FD;
+        margin-right: -70px;
+    }
+
+}
+
+@media(max-width: 414px) {
+    .countDown div {
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .countDown span {
+        font-size: 10px;
+    }
+    .label {
+        font-size: 15px;
+    }
+}
+
+
+
+@media(max-width: 360px) {
+    .countDown div {
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+    .label {
+        font-size: 12px;
+    }
+    
+    .countDown span {
+        font-size: 10px;
+    }
+    .specImg {
+        margin-top: -900px;
+    }
+    .overlayRow2Para {
+        margin-top: 350px;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 29px;
+        
+    }
+    .sectionHeader {
+        font-size: 20px;
+    }
+    .groupImgDiv {
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+    .smallBox {
+        margin-top: 50px !important;
+    }
+    .GroupBImg {
+        margin-top: 0px;
+    }
+    .secOverLay {
+        height: 400px;
+        margin-top: -100px;
+    }
+    .blueDivHead {
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    .blueDivPara {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+    footer {
+        font-size: 10px;
+    }
+}

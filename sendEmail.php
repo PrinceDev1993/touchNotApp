@@ -3,10 +3,10 @@
     $emailAddress = filter_input(INPUT_POST, 'emailAddress');
 
     if (!empty($emailAddress)) {
-        $host = "localhost";
-        $dbusername = "root";
-        $dbpassword = "";
-        $dbname = "emailstore";
+        $host = "us-cdbr-east-02.cleardb.com";
+        $dbusername = "beb66d7ccb73bd";
+        $dbpassword = "3984057c";
+        $dbname = "heroku_fef2b94f1c437b6";
 
         //create a connection
         $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
@@ -14,7 +14,7 @@
             die('Connect Error ('.mysqli_connect_errno().')' .mysqli_connect_error());
         } 
         else {
-            $sql = "INSERT INTO clientsemail (EMAIL) values ('$emailAddress')";
+            $sql = "INSERT INTO user (email) values ('$emailAddress')";
             if ($conn->query($sql)) {
                 echo "Subscription successful !";
             }

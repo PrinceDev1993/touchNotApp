@@ -6,16 +6,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/glide.core.min.css">
     <link rel="stylesheet" href="css/glide.theme.min.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="style.css">
     <title>LANDING PAGE</title>
 </head>
     <body>
 
      <!-- FIRST SECTION -->
-     <div id="jump" class="jumbo">
+     <div id="jump" class="jumbo" data-aos="fade-down">
         <div class="container">
           <img class="" src="img/logo.png" alt="">
           <div class="mainContent">
@@ -68,7 +68,7 @@
 
 
     <!-- SECOND SECTION -->
-    <div class="landingImg wow slideInLeft">
+    <div class="landingImg" data-aos="fade-left">
         <div class="landingOverlay">
             <div class="row">
                 <div class="col-sm-1"></div>
@@ -93,7 +93,7 @@
     </div>
 
     <!-- THIRD SECTION -->
-    <div class="jumbo ">
+    <div class="jumbo " data-aos="fade-right">
         <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
@@ -121,7 +121,7 @@
     </div>
 
     <!-- FOURTH SECTION -->
-    <div class="landingImg wow slideInRight">
+    <div class="landingImg wow slideInRight" data-aos="fade-left">
         <div class="landingOverlay secOverLay">
             <div class="row">
                 <div class="col-sm-2"></div>
@@ -153,7 +153,7 @@
 
 
     <!-- FIFTH SECTION -->
-    <div class="blueDiv">
+    <div class="blueDiv" data-aos="fade-right">
         <div class="row blueDivCont">
             <div class="col-sm-1"></div>
             <div class="col-sm-10 text-center">
@@ -178,7 +178,14 @@
 
     
 
-
+ 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000
+      });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script>
@@ -189,10 +196,6 @@
         new Glide('.glide', config).mount()
     </script>
     <script src="js/script.js"></script>
-    <script src="js/wow.js"></script>
-    <script>
-      new WOW().init();
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>

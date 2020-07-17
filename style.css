@@ -3,7 +3,9 @@
     box-sizing: border-box;
     margin: 0px;
 }
-
+body {
+    overflow-x: hidden;
+}
 /* FIRST SECTION */
 
 body {
@@ -227,7 +229,7 @@ footer {
         font-size: 30px;
     }
     .overlayRow2Para {
-        margin-top: 400px;
+        margin-top: 470px;
         font-weight: normal;
         font-size: 15px;
         line-height: 29px;
@@ -235,7 +237,7 @@ footer {
         text-align: center !important;
     }
     .specImg {
-        margin-top: -850px;
+        margin-top: -830px;
     }
     .hidePara {
         display: none;
@@ -251,6 +253,12 @@ footer {
     .right {
         border: 2px solid #3F79FD;
         margin-right: -70px;
+    }
+    .smallBox {
+        margin-top: 50px !important;
+    }
+    .GroupBImg {
+        margin-top: 0px;
     }
 
 }
@@ -271,6 +279,13 @@ footer {
     .label {
         font-size: 15px;
     }
+    .smallBox {
+        margin-top: 50px !important;
+    }
+    .GroupBImg {
+        margin-top: 0px;
+    }
+
 }
 
 
